@@ -32,11 +32,13 @@ export function Sidebar() {
             href="/"
             icon={<ClipboardList className="w-4 h-4" />}
             label="Your listings"
+            active={false}
           />
           <SidebarLink
             href="/"
             icon={<UserCircle className="w-4 h-4" />}
             label="Seller help"
+            active={false}
           />
         </div>
       </div>
