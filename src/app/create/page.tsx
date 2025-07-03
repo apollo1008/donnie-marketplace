@@ -44,7 +44,7 @@ export default function ChooseListingTypePage() {
             onClick={() => router.push(`/create/item?type=${type.slug}`)}
             className="cursor-pointer rounded-xl bg-white p-6 shadow-sm hover:shadow-md hover:border-gray-300 border border-transparent transition duration-200"
           >
-            <div class="w-20 h-20 bg-gray-200 rounded-full mx-auto mb-4 flex items-center justify-center"><div class="w-10 h-10 bg-gray-300 rounded-full"></div></div>
+            <div className="w-20 h-20 bg-gray-200 rounded-full mx-auto mb-4 flex items-center justify-center"><div className="w-10 h-10 bg-gray-300 rounded-full"></div></div>
             <h3 className="text-center font-medium text-lg mb-1">{type.title}</h3>
             <p className="text-center text-sm text-gray-500">{type.description}</p>
           </div>
